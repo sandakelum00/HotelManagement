@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<!-- <link rel="stylesheet" href="style.css"> -->
+ <link th:href = "@{/css/style.css}" rel="stylesheet"> 
+  <meta charset="ISO-8859-1">
+  
+<title>Add Inventory Details</title>
 </head>
 <body>
-
+	
+		
+		
+		
+			<div class="details"> <h1>Add Inventory Details</h1> </div> 
+			<div class = "main">
+			<form action="">
+			<label>Inventory ID:</label><br/>
+			<input type="text" /><br/>
+			<label>Item Name:</label><br/>
+			<input type="text" /><br/>
+			<label>Item Type:</label><br/>
+				<select name="type" id="type">
+					<option disabled="disabled" selected="selected">--select type</option>
+    				<option value="furniture">Furniture</option>
+    				<option value="kitchen">Kitchen Items</option>
+    				<option value="bathware">Bathware</option>
+    			</select><br/>
+    		<label>Quantity:</label><br/>
+    		<input type="number" /><br/>
+    		<label>Item Price:</label><br/>
+    		<input type="number" /><br/>
+			<label for="description">Description:</label><br/>
+				<textarea id="description" name="description" rows="4" cols="50">
+  				</textarea><br><br>
+  			
+  		 	<label for="accept">Date Of Accept:</label>
+         	<input type="date" id="accept" name="accept"><br/><br/>
+         	<label for="issue">Date Of Issue:</label>
+         	<input type="date" id="issue" name="issue"><br/><br/>
+         	<button type="submit" value="Submit">Add Item</button>
+  		 	<button type="reset" value="Reset">Reset</button>
+			</form>
+			
+			</div>
+		
+		
 </body>
 </html>
