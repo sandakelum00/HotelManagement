@@ -1,0 +1,76 @@
+Name
+System Tools
+Storage
+Services and Applications
+
+Links Checked
+
+
+Diagnosis:
+
+Report run on 05:38:11 ã - Elapsed time: 7 sec
+Total links: 30
+Good links: 7
+Failed links: 0
+Unchecked links: 23
+Time out links: 0
+
+
+Status     Line        Count     URL
+
+Ok          1151         6       file://C:/Users/yallabina/Documents/index_files/image1044.jpg
+Ok          1797         2       file://C:/Users/yallabina/Documents/index_files/image1070.gif
+Ok          1313         4       file://C:/Users/yallabina/Documents/index_files/image1141.gif
+Ok          1468         6       file://C:/Users/yallabina/Documents/index_files/image1225.jpg
+Ok          1640         4       file://C:/Users/yallabina/Documents/index_files/image1237.gif
+Ok          1538         4       file://C:/Users/yallabina/Documents/index_files/image1320.gif
+Ok          1556         2       file://C:/Users/yallabina/Documents/index_files/image1321.gif
+Ok          1657         2       file://C:/Users/yallabina/Documents/index_files/image1325.gif
+Ok          2006         2       file://C:/Users/yallabina/Documents/index_files/image13441.gif
+Ok          2046         4       file://C:/Users/yallabina/Documents/index_files/image1347.gif
+Ok          1247         2       file://C:/Users/yallabina/Documents/index_files/image560.gif
+Ok          1266         4       file://C:/Users/yallabina/Documents/index_files/image561.gif
+Ok          1323         2       file://C:/Users/yallabina/Documents/index_files/image564.gif
+Ok          2378         2       file://C:/Users/yallabina/Documents/index_files/image598.gif
+Ok          2448         2       file://C:/Users/yallabina/Documents/index_files/image604.gif
+Ok          2568         4       file://C:/Users/yallabina/Documents/index_files/image611.gif
+Ok          991          13      file://C:/Users/yallabina/Documents/index_files/Page1090.htm
+Ok          990          13      file://C:/Users/yallabina/Documents/index_files/Page1167.htm
+Ok          989          13      file://C:/Users/yallabina/Documents/index_files/Page1261.htm
+Ok          988          13      file://C:/Users/yallabina/Documents/index_files/Page1360.htm
+Ok          1004         13      file://C:/Users/yallabina/Documents/index_files/Page391.htm
+Ok          994          13      file://C:/Users/yallabina/Documents/index_files/Page445.htm
+Ok          993          31      file://C:/Users/yallabina/Documents/index_files/Page502.htm
+Ok          2277         4       file://C:/Users/yallabina/Documents/index_files/Page619.htm
+Ok          2327         4       file://C:/Users/yallabina/Documents/index_files/Page682.htm
+Ok          2377         4       file://C:/Users/yallabina/Documents/index_files/Page745.htm
+Ok          2427         4       file://C:/Users/yallabina/Documents/index_files/Page808.htm
+Ok          2497         4       file://C:/Users/yallabina/Documents/index_files/Page871.htm
+Ok          2547         4       file://C:/Users/yallabina/Documents/index_files/Page934.htm
+Ok          992          13      file://C:/Users/yallabina/Documents/index_files/Page997.htm
+
+
+Recommendations
+
+There are no lazy links.
+[Root,*/*[0]] Logging - (15) on C:\perflogs\System\Diagnostics\\TAREK_20171104-000003\report.xml
+[Root,*/*[0]] Loading string table from DCS XML.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Loading string table from C:\Windows\pla\rules\en-US\Rules.System.Common.xml.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Adding 'GroupCommon' to string table as 'Global Warning Table'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Adding 'RuleWarningTable' to string table as 'Global Warning Table'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Adding 'RuleMiss' to string table as 'Missing Events in Trace file'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Adding 'missingEvents' to string table as 'Missing Events in Event Log'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Adding 'missingEventsDetails' to string table as 'Investigate why {percentlost}% ({lost}) events were lost during data collection.  The settings for Event Tracing for Windows (ETW) maximum buffers and buffer size may not be optimal depending on which data sets are being collected.'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,*/*[0]] Adding 'missingEventsRelated' to string table as 'Event Tracing for Windows'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Expanding '/Report/Section[1]' to '/Report/Section[1]'
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Step's select ('/Report/Section[1]') found a match.
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Trying to find 'Exists/Otherwise' node.
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Expanding 'Exists/Otherwise' to 'Exists/Otherwise'
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Step succeeded.
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Expanding '/Report/Section/Table[@name='warning']' to '/Report/Section/Table[@name='warning']'
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Setting variable 'warningTable' to '/Report/Section/Table[@name='warning']'.
+[%systemroot%\pla\rules\Rules.System.Common.xml,Global Warning Table/Global Warning Table[0]] Expanding '<Section name="advice" key="100">
+	<Table name="warning" style="info" key="2" topic="TopicTestResults" expand="true"/>
+</Section>' to '<Section name="advice" key="100">
+	<Table name="warning" style="info" key="2" topic="TopicTestResults" expand="true"/>
+</Section>
